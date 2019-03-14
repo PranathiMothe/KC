@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3544EE09223AE09A00767774 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE08223AE09A00767774 /* AppDelegate.swift */; };
+		3544EE0B223AE09A00767774 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE0A223AE09A00767774 /* ViewController.swift */; };
+		3544EE0E223AE09A00767774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3544EE0C223AE09A00767774 /* Main.storyboard */; };
+		3544EE10223AE09B00767774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3544EE0F223AE09B00767774 /* Assets.xcassets */; };
+		3544EE13223AE09B00767774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3544EE11223AE09B00767774 /* LaunchScreen.storyboard */; };
+		3544EE1E223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE1D223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestTests.swift */; };
+		3544EE29223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE28223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3544EE1A223AE09B00767774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3544EDFD223AE09A00767774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3544EE04223AE09A00767774;
+			remoteInfo = "The Most Awesome Northwest-KC Programming Contest";
+		};
+		3544EE25223AE09B00767774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3544EDFD223AE09A00767774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3544EE04223AE09A00767774;
+			remoteInfo = "The Most Awesome Northwest-KC Programming Contest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3544EE05223AE09A00767774 /* The Most Awesome Northwest-KC Programming Contest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Most Awesome Northwest-KC Programming Contest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3544EE08223AE09A00767774 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3544EE0A223AE09A00767774 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3544EE0D223AE09A00767774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3544EE0F223AE09B00767774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3544EE12223AE09B00767774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3544EE14223AE09B00767774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3544EE19223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Most Awesome Northwest-KC Programming ContestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3544EE1D223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Most_Awesome_Northwest_KC_Programming_ContestTests.swift; sourceTree = "<group>"; };
+		3544EE1F223AE09B00767774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3544EE24223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Most Awesome Northwest-KC Programming ContestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3544EE28223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Most_Awesome_Northwest_KC_Programming_ContestUITests.swift; sourceTree = "<group>"; };
+		3544EE2A223AE09B00767774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3544EE02223AE09A00767774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3544EE16223AE09B00767774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3544EE21223AE09B00767774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3544EDFC223AE09A00767774 = {
+			isa = PBXGroup;
+			children = (
+				3544EE07223AE09A00767774 /* The Most Awesome Northwest-KC Programming Contest */,
+				3544EE1C223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestTests */,
+				3544EE27223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestUITests */,
+				3544EE06223AE09A00767774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3544EE06223AE09A00767774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3544EE05223AE09A00767774 /* The Most Awesome Northwest-KC Programming Contest.app */,
+				3544EE19223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestTests.xctest */,
+				3544EE24223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3544EE07223AE09A00767774 /* The Most Awesome Northwest-KC Programming Contest */ = {
+			isa = PBXGroup;
+			children = (
+				3544EE08223AE09A00767774 /* AppDelegate.swift */,
+				3544EE0A223AE09A00767774 /* ViewController.swift */,
+				3544EE0C223AE09A00767774 /* Main.storyboard */,
+				3544EE0F223AE09B00767774 /* Assets.xcassets */,
+				3544EE11223AE09B00767774 /* LaunchScreen.storyboard */,
+				3544EE14223AE09B00767774 /* Info.plist */,
+			);
+			path = "The Most Awesome Northwest-KC Programming Contest";
+			sourceTree = "<group>";
+		};
+		3544EE1C223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3544EE1D223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestTests.swift */,
+				3544EE1F223AE09B00767774 /* Info.plist */,
+			);
+			path = "The Most Awesome Northwest-KC Programming ContestTests";
+			sourceTree = "<group>";
+		};
+		3544EE27223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3544EE28223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestUITests.swift */,
+				3544EE2A223AE09B00767774 /* Info.plist */,
+			);
+			path = "The Most Awesome Northwest-KC Programming ContestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3544EE04223AE09A00767774 /* The Most Awesome Northwest-KC Programming Contest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3544EE2D223AE09B00767774 /* Build configuration list for PBXNativeTarget "The Most Awesome Northwest-KC Programming Contest" */;
+			buildPhases = (
+				3544EE01223AE09A00767774 /* Sources */,
+				3544EE02223AE09A00767774 /* Frameworks */,
+				3544EE03223AE09A00767774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Most Awesome Northwest-KC Programming Contest";
+			productName = "The Most Awesome Northwest-KC Programming Contest";
+			productReference = 3544EE05223AE09A00767774 /* The Most Awesome Northwest-KC Programming Contest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3544EE18223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3544EE30223AE09B00767774 /* Build configuration list for PBXNativeTarget "The Most Awesome Northwest-KC Programming ContestTests" */;
+			buildPhases = (
+				3544EE15223AE09B00767774 /* Sources */,
+				3544EE16223AE09B00767774 /* Frameworks */,
+				3544EE17223AE09B00767774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3544EE1B223AE09B00767774 /* PBXTargetDependency */,
+			);
+			name = "The Most Awesome Northwest-KC Programming ContestTests";
+			productName = "The Most Awesome Northwest-KC Programming ContestTests";
+			productReference = 3544EE19223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3544EE23223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3544EE33223AE09B00767774 /* Build configuration list for PBXNativeTarget "The Most Awesome Northwest-KC Programming ContestUITests" */;
+			buildPhases = (
+				3544EE20223AE09B00767774 /* Sources */,
+				3544EE21223AE09B00767774 /* Frameworks */,
+				3544EE22223AE09B00767774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3544EE26223AE09B00767774 /* PBXTargetDependency */,
+			);
+			name = "The Most Awesome Northwest-KC Programming ContestUITests";
+			productName = "The Most Awesome Northwest-KC Programming ContestUITests";
+			productReference = 3544EE24223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3544EDFD223AE09A00767774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mothe,Pranathi";
+				TargetAttributes = {
+					3544EE04223AE09A00767774 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3544EE18223AE09B00767774 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3544EE04223AE09A00767774;
+					};
+					3544EE23223AE09B00767774 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3544EE04223AE09A00767774;
+					};
+				};
+			};
+			buildConfigurationList = 3544EE00223AE09A00767774 /* Build configuration list for PBXProject "The Most Awesome Northwest-KC Programming Contest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3544EDFC223AE09A00767774;
+			productRefGroup = 3544EE06223AE09A00767774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3544EE04223AE09A00767774 /* The Most Awesome Northwest-KC Programming Contest */,
+				3544EE18223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestTests */,
+				3544EE23223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3544EE03223AE09A00767774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3544EE13223AE09B00767774 /* LaunchScreen.storyboard in Resources */,
+				3544EE10223AE09B00767774 /* Assets.xcassets in Resources */,
+				3544EE0E223AE09A00767774 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3544EE17223AE09B00767774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3544EE22223AE09B00767774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3544EE01223AE09A00767774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3544EE0B223AE09A00767774 /* ViewController.swift in Sources */,
+				3544EE09223AE09A00767774 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3544EE15223AE09B00767774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3544EE1E223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3544EE20223AE09B00767774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3544EE29223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3544EE1B223AE09B00767774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3544EE04223AE09A00767774 /* The Most Awesome Northwest-KC Programming Contest */;
+			targetProxy = 3544EE1A223AE09B00767774 /* PBXContainerItemProxy */;
+		};
+		3544EE26223AE09B00767774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3544EE04223AE09A00767774 /* The Most Awesome Northwest-KC Programming Contest */;
+			targetProxy = 3544EE25223AE09B00767774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3544EE0C223AE09A00767774 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3544EE0D223AE09A00767774 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3544EE11223AE09B00767774 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3544EE12223AE09B00767774 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3544EE2B223AE09B00767774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3544EE2C223AE09B00767774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3544EE2E223AE09B00767774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Most Awesome Northwest-KC Programming Contest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri--state-University.The-Most-Awesome-Northwest-KC-Programming-Contest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3544EE2F223AE09B00767774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Most Awesome Northwest-KC Programming Contest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri--state-University.The-Most-Awesome-Northwest-KC-Programming-Contest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3544EE31223AE09B00767774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Most Awesome Northwest-KC Programming ContestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri--state-University.The-Most-Awesome-Northwest-KC-Programming-ContestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Most Awesome Northwest-KC Programming Contest.app/The Most Awesome Northwest-KC Programming Contest";
+			};
+			name = Debug;
+		};
+		3544EE32223AE09B00767774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Most Awesome Northwest-KC Programming ContestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri--state-University.The-Most-Awesome-Northwest-KC-Programming-ContestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Most Awesome Northwest-KC Programming Contest.app/The Most Awesome Northwest-KC Programming Contest";
+			};
+			name = Release;
+		};
+		3544EE34223AE09B00767774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Most Awesome Northwest-KC Programming ContestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri--state-University.The-Most-Awesome-Northwest-KC-Programming-ContestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Most Awesome Northwest-KC Programming Contest";
+			};
+			name = Debug;
+		};
+		3544EE35223AE09B00767774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Most Awesome Northwest-KC Programming ContestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri--state-University.The-Most-Awesome-Northwest-KC-Programming-ContestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Most Awesome Northwest-KC Programming Contest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3544EE00223AE09A00767774 /* Build configuration list for PBXProject "The Most Awesome Northwest-KC Programming Contest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3544EE2B223AE09B00767774 /* Debug */,
+				3544EE2C223AE09B00767774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3544EE2D223AE09B00767774 /* Build configuration list for PBXNativeTarget "The Most Awesome Northwest-KC Programming Contest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3544EE2E223AE09B00767774 /* Debug */,
+				3544EE2F223AE09B00767774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3544EE30223AE09B00767774 /* Build configuration list for PBXNativeTarget "The Most Awesome Northwest-KC Programming ContestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3544EE31223AE09B00767774 /* Debug */,
+				3544EE32223AE09B00767774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3544EE33223AE09B00767774 /* Build configuration list for PBXNativeTarget "The Most Awesome Northwest-KC Programming ContestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3544EE34223AE09B00767774 /* Debug */,
+				3544EE35223AE09B00767774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3544EDFD223AE09A00767774 /* Project object */;
+}
