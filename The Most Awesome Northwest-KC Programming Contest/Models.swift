@@ -11,14 +11,12 @@ import Foundation
 
 class Schools{
     private var schools:[School]
-    
     static var shared = Schools()
     
     init(schools: [School]) {
         self.schools = schools
-        self.schools.append(School(name: "Northwest", coach: "Me"))
     }
-    
+     
     convenience init(){
         self.init(schools: [])
     }
@@ -52,7 +50,6 @@ class School:Equatable{
     var teams: [Team]
     
     func addTeam(name: String, students: [String]){
-        print("I am in add")
         teams.append(Team(name: name, students: students))
     }
     

@@ -1,5 +1,5 @@
 //
-//  New School ViewController.swift
+//  New Team ViewController.swift
 //  The Most Awesome Northwest-KC Programming Contest
 //
 //  Created by Mothe,Pranathi on 3/14/19.
@@ -8,14 +8,20 @@
 
 import UIKit
 
-class New_School_ViewController: UIViewController {
+class NewTeamViewController: UIViewController {
 
     
-    @IBOutlet weak var name: UITextField!
-
-    @IBOutlet weak var Coach: UITextField!
+    @IBOutlet weak var TeamName: UITextField!
     
-    var newSchool: School!
+    
+    @IBOutlet weak var Student0: UITextField!
+    
+   
+    @IBOutlet weak var Student1: UITextField!
+    
+    
+    @IBOutlet weak var Student2: UITextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,25 +29,25 @@ class New_School_ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    
     @IBAction func Cancel(_ sender: Any) {
     
      self.dismiss(animated: true, completion: nil)
     
     }
     
-
+    var newSchoolView: School!
     @IBAction func Done(_ sender: Any) {
-        let schoolName = name.text!
-        let coachName = Coach.text!
-        
-        Schools.shared.add(school: School(name: schoolName, coach: coachName))
+        let name = TeamName.text!
+        let student0Name = Student0.text!
+        let student1Name = Student1.text!
+        let student2Name = Student2.text!
+        newSchoolView.addTeam(name: name, students: [student0Name, student1Name, student2Name])
         self.dismiss(animated: true, completion: nil)
-    
-    
+        
+        
     }
     
-    
+
     /*
     // MARK: - Navigation
 

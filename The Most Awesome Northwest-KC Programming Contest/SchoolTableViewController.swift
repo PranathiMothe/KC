@@ -12,15 +12,11 @@ class SchoolTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-
-    // MARK: - Table view data source
+    
+    override func viewWillAppear(_ animated:Bool){
+        tableView.reloadData()
+    }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
@@ -34,7 +30,7 @@ class SchoolTableViewController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "schools", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "SchoolCells", for: indexPath)
         cell.textLabel?.text = Schools.shared[indexPath.row].name
         cell.detailTextLabel?.text = Schools.shared[indexPath.row].coach
         return cell
@@ -76,14 +72,22 @@ class SchoolTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "teamsSegue"
+        {
+            let team = segue.destination as! TeamsTableViewController
+            team.teamView = Schools.shared[tableView.indexPathForSelectedRow!.row]
+        }
     }
-    */
-
+    
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            Schools.shared.delete(school: Schools.shared[indexPath.row])
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+    }
 }

@@ -14,11 +14,11 @@
 		3544EE13223AE09B00767774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3544EE11223AE09B00767774 /* LaunchScreen.storyboard */; };
 		3544EE1E223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE1D223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestTests.swift */; };
 		3544EE29223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE28223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestUITests.swift */; };
-		3544EE37223AEB3200767774 /* Students ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE36223AEB3200767774 /* Students ViewController.swift */; };
-		3544EE39223AEB8800767774 /* New School ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE38223AEB8800767774 /* New School ViewController.swift */; };
-		3544EE3B223AEBB100767774 /* New Team ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE3A223AEBB100767774 /* New Team ViewController.swift */; };
+		3544EE37223AEB3200767774 /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE36223AEB3200767774 /* StudentsViewController.swift */; };
+		3544EE39223AEB8800767774 /* NewSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE38223AEB8800767774 /* NewSchoolViewController.swift */; };
+		3544EE3B223AEBB100767774 /* NewTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE3A223AEBB100767774 /* NewTeamViewController.swift */; };
 		3544EE3D223AED3B00767774 /* SchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE3C223AED3B00767774 /* SchoolTableViewController.swift */; };
-		3544EE3F223AED6900767774 /* TeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE3E223AED6900767774 /* TeamTableViewController.swift */; };
+		3544EE3F223AED6900767774 /* TeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE3E223AED6900767774 /* TeamsTableViewController.swift */; };
 		3544EE41223AEEB900767774 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544EE40223AEEB900767774 /* Models.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,11 +53,11 @@
 		3544EE24223AE09B00767774 /* The Most Awesome Northwest-KC Programming ContestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Most Awesome Northwest-KC Programming ContestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3544EE28223AE09B00767774 /* The_Most_Awesome_Northwest_KC_Programming_ContestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Most_Awesome_Northwest_KC_Programming_ContestUITests.swift; sourceTree = "<group>"; };
 		3544EE2A223AE09B00767774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3544EE36223AEB3200767774 /* Students ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Students ViewController.swift"; sourceTree = "<group>"; };
-		3544EE38223AEB8800767774 /* New School ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "New School ViewController.swift"; sourceTree = "<group>"; };
-		3544EE3A223AEBB100767774 /* New Team ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "New Team ViewController.swift"; sourceTree = "<group>"; };
+		3544EE36223AEB3200767774 /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		3544EE38223AEB8800767774 /* NewSchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSchoolViewController.swift; sourceTree = "<group>"; };
+		3544EE3A223AEBB100767774 /* NewTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTeamViewController.swift; sourceTree = "<group>"; };
 		3544EE3C223AED3B00767774 /* SchoolTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolTableViewController.swift; sourceTree = "<group>"; };
-		3544EE3E223AED6900767774 /* TeamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewController.swift; sourceTree = "<group>"; };
+		3544EE3E223AED6900767774 /* TeamsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTableViewController.swift; sourceTree = "<group>"; };
 		3544EE40223AEEB900767774 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,10 +113,10 @@
 				3544EE0A223AE09A00767774 /* ViewController.swift */,
 				3544EE0C223AE09A00767774 /* Main.storyboard */,
 				3544EE40223AEEB900767774 /* Models.swift */,
-				3544EE3E223AED6900767774 /* TeamTableViewController.swift */,
-				3544EE3A223AEBB100767774 /* New Team ViewController.swift */,
-				3544EE38223AEB8800767774 /* New School ViewController.swift */,
-				3544EE36223AEB3200767774 /* Students ViewController.swift */,
+				3544EE3E223AED6900767774 /* TeamsTableViewController.swift */,
+				3544EE3A223AEBB100767774 /* NewTeamViewController.swift */,
+				3544EE38223AEB8800767774 /* NewSchoolViewController.swift */,
+				3544EE36223AEB3200767774 /* StudentsViewController.swift */,
 				3544EE0F223AE09B00767774 /* Assets.xcassets */,
 				3544EE11223AE09B00767774 /* LaunchScreen.storyboard */,
 				3544EE14223AE09B00767774 /* Info.plist */,
@@ -274,13 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3544EE37223AEB3200767774 /* Students ViewController.swift in Sources */,
+				3544EE37223AEB3200767774 /* StudentsViewController.swift in Sources */,
 				3544EE0B223AE09A00767774 /* ViewController.swift in Sources */,
 				3544EE09223AE09A00767774 /* AppDelegate.swift in Sources */,
 				3544EE3D223AED3B00767774 /* SchoolTableViewController.swift in Sources */,
-				3544EE3F223AED6900767774 /* TeamTableViewController.swift in Sources */,
-				3544EE3B223AEBB100767774 /* New Team ViewController.swift in Sources */,
-				3544EE39223AEB8800767774 /* New School ViewController.swift in Sources */,
+				3544EE3F223AED6900767774 /* TeamsTableViewController.swift in Sources */,
+				3544EE3B223AEBB100767774 /* NewTeamViewController.swift in Sources */,
+				3544EE39223AEB8800767774 /* NewSchoolViewController.swift in Sources */,
 				3544EE41223AEEB900767774 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "The Most Awesome Northwest-KC Programming Contest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +476,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "The Most Awesome Northwest-KC Programming Contest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
